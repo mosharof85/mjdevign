@@ -26,10 +26,17 @@
 }
 
 .sec-newyear .right .right-text2{
-    padding: 12px 62px;
     background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='white' stroke-width='6' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
     display: inline-block;
     margin: 13px 0 25px;
+    width: 237px;
+    height: 68px;
+    text-align: center;
+    line-height: 68px;
+}
+
+.sec-newyear .right .right-text3{
+    text-align: center;
 }
 
 /*@media screen and (max-width: 991px) {*/
