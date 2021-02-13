@@ -10,47 +10,107 @@ header .nav-link.sign-in{
     background : url("../../images/others/index/bg-index.png") no-repeat top right;
 }
 
-.sec-hero .left .left-container{
+/*.sec-hero .left .left-container{*/
+/*    position: relative;*/
+/*}*/
+
+/*.sec-hero .left .circle{*/
+/*    position: absolute;*/
+/*    top: 60px;*/
+/*    left: -50px;*/
+/*    animation: zoom 4s infinite;*/
+/*}*/
+
+/*.sec-hero .left .path{*/
+/*    position: absolute;*/
+/*    top: 60px;*/
+/*    right: 50px;*/
+/*}*/
+
+/*.sec-hero .left .triangle{*/
+/*    position: absolute;*/
+/*    bottom: 0;*/
+/*    right: 50px;*/
+/*    animation: zoom 4s infinite;*/
+/*}*/
+
+/*@media screen and (max-width: 991px){*/
+/*    .sec-hero .left .circle{*/
+/*        top: -50px;*/
+/*        left: 15px;*/
+/*    }*/
+/*    .sec-hero .left .path{*/
+/*        bottom: 70px;*/
+/*        top: initial;*/
+/*        right: 0;*/
+/*    }*/
+
+/*    .sec-hero .left .triangle{*/
+/*        top: 0;*/
+/*        bottom: initial;*/
+/*        right: 0;*/
+/*    }*/
+/*}*/
+/*@keyframes zoom {*/
+/*    0%{*/
+/*        transform: scale(.8);*/
+/*    }*/
+/*    50%{*/
+/*        transform: scale(1);*/
+/*    }*/
+/*    100%{*/
+/*        transform: scale(.8);*/
+/*    }*/
+/*}*/
+
+.sec-hero .section-container .right{
+    text-align: right;
+    margin-top: -100px;
+    margin-left: 40px;
     position: relative;
 }
 
-.sec-hero .left .circle{
+.sec-hero .section-container .right img.main{
+    width: 479px;
+    height: 483px;
+}
+
+.sec-hero .right .circle{
+    width: 23px !important;
+    height: 23px !important;
+}
+
+.sec-hero .right .triangle{
+    width: 101px !important;
+    height: 82px !important;
+}
+
+.sec-hero .right .triangle2{
+    width: 68px !important;
+    height: 55px !important;
+}
+
+.sec-hero .right .circle{
     position: absolute;
-    top: 60px;
+    top: 50%;
+    left: 0;
+    animation: zoom 4s infinite;
+}
+
+.sec-hero .right .triangle2{
+    position: absolute;
+    top: 100px;
+    right: 20px;
+    animation: zoom 4s infinite;
+}
+
+.sec-hero .right .triangle{
+    position: absolute;
+    bottom: 50px;
     left: -50px;
     animation: zoom 4s infinite;
 }
 
-.sec-hero .left .path{
-    position: absolute;
-    top: 60px;
-    right: 50px;
-}
-
-.sec-hero .left .triangle{
-    position: absolute;
-    bottom: 0;
-    right: 50px;
-    animation: zoom 4s infinite;
-}
-
-@media screen and (max-width: 991px){
-    .sec-hero .left .circle{
-        top: -50px;
-        left: 15px;
-    }
-    .sec-hero .left .path{
-        bottom: 70px;
-        top: initial;
-        right: 0;
-    }
-
-    .sec-hero .left .triangle{
-        top: 0;
-        bottom: initial;
-        right: 0;
-    }
-}
 @keyframes zoom {
     0%{
         transform: scale(.8);
@@ -61,25 +121,4 @@ header .nav-link.sign-in{
     100%{
         transform: scale(.8);
     }
-}
-
-@media screen and (max-width: 991px) {
-    .sec-hero{
-        padding-bottom: 0;
-    }
-
-    .sec-quatily{
-        padding-top: 0;
-    }
-}
-
-.sec-hero .section-container .right{
-    text-align: right;
-    margin-top: -100px;
-    margin-left: 40px;
-}
-
-.sec-hero .section-container .right img{
-    width: 479px;
-    height: 483px;
 }
