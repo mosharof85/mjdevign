@@ -4,7 +4,7 @@ header .nav-link:not(.sign-in) a{
 
 
 .sec-hero .hero-left {
-    background: url(../../images/others/mobileapp/hero-left.png) no-repeat top left;
+    background: url(../../images/others/mobileapp/Bg116.png) no-repeat top left;
 }
 
 @media screen and (min-width: 992px) {
@@ -13,7 +13,7 @@ header .nav-link:not(.sign-in) a{
     }
 
     .sec-hero .hero-left{
-        background-size: 100% 120%;
+        background-size: 100% 105%;
     }
 
     .sec-hero .section-container .right img{
