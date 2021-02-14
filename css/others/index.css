@@ -10,59 +10,6 @@ header .nav-link.sign-in{
     background : url("../../images/others/index/bg-index.png") no-repeat top right;
 }
 
-/*.sec-hero .left .left-container{*/
-/*    position: relative;*/
-/*}*/
-
-/*.sec-hero .left .circle{*/
-/*    position: absolute;*/
-/*    top: 60px;*/
-/*    left: -50px;*/
-/*    animation: zoom 4s infinite;*/
-/*}*/
-
-/*.sec-hero .left .path{*/
-/*    position: absolute;*/
-/*    top: 60px;*/
-/*    right: 50px;*/
-/*}*/
-
-/*.sec-hero .left .triangle{*/
-/*    position: absolute;*/
-/*    bottom: 0;*/
-/*    right: 50px;*/
-/*    animation: zoom 4s infinite;*/
-/*}*/
-
-/*@media screen and (max-width: 991px){*/
-/*    .sec-hero .left .circle{*/
-/*        top: -50px;*/
-/*        left: 15px;*/
-/*    }*/
-/*    .sec-hero .left .path{*/
-/*        bottom: 70px;*/
-/*        top: initial;*/
-/*        right: 0;*/
-/*    }*/
-
-/*    .sec-hero .left .triangle{*/
-/*        top: 0;*/
-/*        bottom: initial;*/
-/*        right: 0;*/
-/*    }*/
-/*}*/
-/*@keyframes zoom {*/
-/*    0%{*/
-/*        transform: scale(.8);*/
-/*    }*/
-/*    50%{*/
-/*        transform: scale(1);*/
-/*    }*/
-/*    100%{*/
-/*        transform: scale(.8);*/
-/*    }*/
-/*}*/
-
 .sec-hero .section-container .right{
     text-align: right;
     margin-top: -100px;

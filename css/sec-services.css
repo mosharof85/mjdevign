@@ -18,7 +18,7 @@
     cursor: pointer;
 }
 
-.sec-services .service span{
+.sec-services .service a{
     color: #495057;
     font-weight: 600;
     font-family: 'Montserrat-Medium', sans-serif;
@@ -26,9 +26,10 @@
     align-items: center;
     justify-content: center;
     margin-top: 40px;
+    font-size: 14px;
 }
 
-.sec-services .service span img{
+.sec-services .service a img{
     margin-left: 10px;
 }
 
