@@ -216,7 +216,7 @@
                         <p class="mt-20 mb-20 f-montserratMedium2 text-18px text-600">Complete Store Setup</p>
                         <p class="text-black2 text-15px lineheight1">Professional, unique, engaging and responsive website design and function.</p>
                         <div class="box-img">
-                            <img src="./images/sec-quality/bg-quality.png" alt="">
+                            <img src="./images/box-bg2.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -227,7 +227,7 @@
                         <p class="mt-20 mb-20 f-montserratMedium2 text-18px text-700">Ready To Sell Products</p>
                         <p class="text-black2 text-15px lineheight1">We deliver our our services complete to your satisfaction within 7 days from your order.</p>
                         <div class="box-img">
-                            <img src="./images/sec-quality/bg-quality.png" alt="">
+                            <img src="./images/box-bg2.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -238,7 +238,7 @@
                         <p class="mt-20 mb-20 f-montserratMedium2 text-18px text-700">Traing 7 sup</p>
                         <p class="text-black2 text-15px lineheight1">We deliver our our services complete to your satisfaction within 7 days from your order.</p>
                         <div class="box-img">
-                            <img src="./images/sec-quality/bg-quality.png" alt="">
+                            <img src="./images/box-bg2.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -249,7 +249,7 @@
                         <p class="mt-20 mb-20 f-montserratMedium2 text-18px text-700">Easy to manage</p>
                         <p class="text-black2 text-15px lineheight1">No previous experience required with training and support provided!</p>
                         <div class="box-img">
-                            <img src="./images/sec-quality/bg-quality.png" alt="">
+                            <img src="./images/box-bg2.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -521,6 +521,7 @@
         <img class="top-img" src="./images/sec-calculator/top.png" alt="">
     </div>
 </section>
+
 <section class="sec-calc">
     <div class="section-container">
         <div class="left">
@@ -557,7 +558,7 @@
                 </div>
                 <p class="sliders-title">Estimate your potential earnings!</p>
                 <div class="slider">
-                    <div class="info"><p>Supplier Price</p><p class="current">$50</p></div>
+                    <div class="info"><p>Supplier Price</p><p>$<span class="current">50</span></p></div>
                     <input type="range" id="supplier_rate" min="0" max="200" value="50" step="50">
                     <div class="lbls">
                         <span class="init">$5</span>
@@ -570,7 +571,7 @@
                     </div>
                 </div>
                 <div class="slider">
-                    <div class="info"><p>Supplier Price</p><p class="current">$5</p></div>
+                    <div class="info"><p>Profit Margin</p><p>$<span class="current">5</span></p></div>
                     <input type="range" id="profit_margin" min="0" max="200" value="5" step="50">
                     <div class="lbls">
                         <span class="init">$5</span>
@@ -583,7 +584,7 @@
                     </div>
                 </div>
                 <div class="slider">
-                    <div class="info"><p>Supplier Price</p><p class="current">$200</p></div>
+                    <div class="info"><p>Orders Per Month</p><p><span class="current">200</span></p></div>
                     <input type="range" id="orders" min="0" max="800" value="200" step="200">
                     <div class="lbls">
                         <span class="init">$0</span>
@@ -624,17 +625,6 @@
         </div>
     </div>
 </section>
-
-<script>
-
-    let input = document.querySelector('input');
-
-    input.addEventListener('input', function () {
-        console.log(input.value)
-    })
-
-
-</script>
 
 <section class="sec-pricing">
     <div class="section-container">
@@ -997,22 +987,6 @@
 <script src="./js/header.js"></script>
 <script src="./js/package-controller.js"></script>
 <script src="./js/faq.js"></script>
-<script>
-    window.addEventListener('DOMContentLoaded', function () {
-        document.querySelectorAll('.slider').forEach(item=>{
-            let input = item.querySelector('input');
-            let value = (input.value-input.min)/(input.max-input.min)*100;
-            input.style.background = 'linear-gradient(to right, #E80566 0%, #E80566 ' + value + '%, #fff ' + value + '%, white 100%)';
-        })
-    })
-
-    document.querySelectorAll('.slider').forEach(item=>{
-        let input = item.querySelector('input');
-        input.addEventListener('input',()=>{
-            let value = (input.value-input.min)/(input.max-input.min)*100;
-            input.style.background = 'linear-gradient(to right, #E80566 0%, #E80566 ' + value + '%, #fff ' + value + '%, white 100%)';
-        })
-    })
-</script>
+<script src="./js/profit-calculator.js"></script>
 </body>
 </html>

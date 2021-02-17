@@ -14,7 +14,7 @@ header{
 header.active{
     /*background: linear-gradient(75deg, #65258a 10%, #e80566);*/
     background-image: url("../images/menu-scroll-bg.png");
-    background-size: 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     padding: 10px 0;
     transition: all .3s ease;

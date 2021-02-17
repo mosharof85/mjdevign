@@ -9,6 +9,11 @@
     }
 }
 
+.sec-hero .section-container .right img{
+    width: 602px;
+    height: 506px;
+}
+
 header .nav-link:not(.sign-in) a{
     color: #FFFFFF;
 }
