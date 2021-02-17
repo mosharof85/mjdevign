@@ -1,5 +1,5 @@
 footer{
-    background: linear-gradient(75deg, #65258a 10%, #e80566);
+    background-image: url("../images/footer-bg.png");
     display: flex;
     align-items: center;
     justify-content: center;

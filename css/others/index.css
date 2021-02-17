@@ -8,6 +8,7 @@ header .nav-link.sign-in{
 
 .sec-hero .hero-left{
     background : url("../../images/others/index/bg-index.png") no-repeat top right;
+    background-size: 100% 100%;
 }
 
 .sec-hero .section-container .right{
